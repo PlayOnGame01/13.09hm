@@ -20,12 +20,12 @@ public:
 	{
 		cout << "construct\n";
 		pages = p;
-	}// ðåàëèçîâàòü äåëåãèðîâàíèå!!!
+	}
 	void Output()
 	{
 		cout << "Name: " << name << "\tpages: " << pages << endl;
 	}
-	int Getpages()const  // èíñïåêòîðû
+	int Getpages()const  
 	{
 		return pages;
 	}
@@ -121,7 +121,7 @@ public:
 		delete[]name1;
 	}
 };
-// ïîêàçàòü èñïîëüçîâàíèå îáúåêòîì â ôóíêöèè main
+
 int main()
 {
 	srand(unsigned(time(0)));
